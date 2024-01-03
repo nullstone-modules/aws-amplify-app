@@ -4,6 +4,6 @@ variable "app_name" {
 }
 
 variable "backend_env_name" {
-    type        = string
-    description = "The name for the backend environment"
+  type        = string
+  description = "The name for the backend environment"
 }
