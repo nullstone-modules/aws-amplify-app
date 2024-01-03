@@ -1,0 +1,13 @@
+org_name: Evolve
+name: aws-amplify-app
+friendly_name: Amplify App
+description: Creates a basic Amplify app in AWS
+category: block
+subcategory: ""
+provider_types:
+    - aws
+platform: amplify
+subplatform: ""
+type: ""
+appCategories: []
+is_public: false
