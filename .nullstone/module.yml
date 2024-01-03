@@ -2,7 +2,7 @@ org_name: Evolve
 name: aws-amplify-app
 friendly_name: Amplify App
 description: Creates a basic Amplify app in AWS
-category: block
+category: datastore
 subcategory: ""
 provider_types:
     - aws
