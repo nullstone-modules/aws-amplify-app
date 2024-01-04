@@ -4,6 +4,6 @@ output "app_id" {
 }
 
 output "backend_env_name" {
-  value       = var.backend_env_name
+  value       = aws_amplify_backend_environment.this.environment_name
   description = "string ||| The name of the backend environment."
 }

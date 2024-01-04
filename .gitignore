@@ -29,3 +29,6 @@ override.tf.json
 # example: *tfplan*
 
 *.tar.gz
+
+__backend__.tf
+.nullstone/active-workspace.yml
