@@ -4,5 +4,5 @@ resource "aws_amplify_app" "this" {
 
 resource "aws_amplify_backend_environment" "this" {
   app_id           = aws_amplify_app.this.id
-  environment_name = local.resource_name
+  environment_name = random_string.resource_suffix.result
 }
